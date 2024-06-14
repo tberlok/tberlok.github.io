@@ -25,8 +25,9 @@
 				<nav id="nav">
 					<ul>
 						<li><a href="#one" class="active">About</a></li>
+						<li><a href="#three">Ongoing research</a></li>
+						<li><a href="#four">Animation gallery</a></li>
 						<li><a href="#two">Publications</a></li>
-						<!-- <li><a href="#three">Research</a></li> -->
 						<li><a href="tberlok-cv.pdf">CV</a> </li>
 						<!-- <li><a href="#four">Contact</a></li> -->
 					</ul>
@@ -80,51 +81,142 @@
 	During my PhD studies my advisors and I also developed a 2D hybrid-kinetic code for studying ions in
 	collisionless plasmas (this remains unpublished but details can be found in my PhD thesis which can be downloaded <a href="./Berlok_thesis.pdf">here</a>).
 
-    <br><br>
+
+</div>
+</section>
+
+<!-- Three -->
+<section id="three">
+<div class="container">
+<h3>Ongoing research</h3>
+
+<!-- 					My work with Martin Pessah is focused on the physics of the intracluster
+					medium (ICM) of galaxy clusters. The ICM is a very dilute and extremely
+					hot plasma that permeates the space between galaxies in galaxy clusters.
+					The ICM is believed to be susceptible to instabilities driven by gradients
+					in temperature. We are extending this work in order to also account for
+					gradients in composition. Gradients in composition could have implications
+					for cluster measurements - potentially having a consequence for the use of
+					clusters for precision cosmology.
+
+
+					The Magneto-Thermo-Compositional Instability (MTCI) is an instability that
+					is driven by gradients in composition.
+
+					We believe that the instabilities could be important because they
+					saturate in such a way that the initial gradient in composition is
+					alleviated. This is illustrated in the simulation below where the Helium
+					composition is mixed by the action of the MTCI. -->
+
+<!-- 					<video class="displayed" width="540" height="405" controls="controls">
+			   		<source src="local.mov" type="video/ogg">
+			   		<source src="local.mov" type="video/mp4">
+			   		Your browser does not support the video tag.
+					</video> -->
+					<!-- </p> -->
+
+    <!-- <br><br> -->
     I am currently working on a new suite of cosmological
-    simulations of galaxy clusters. Cosmological simulations start shortly after the Big Bang and capture how matter collapses to form the first galaxies, some of which later assemble in galaxy clusters.
-    This project is a collaboration between NBI, AIP and MPA. We've been awarded 28 mio. cpu-hours of computing time on SuperMuc-NG in Garching. Galaxy clusters form at the largest over-densities in the cosmic web which reveals itself in our 1 Gpc/h box simulation. We have used this box simulation to 25 galaxy clusters for re-simulation at much higher resolution using a so-called zoom-in technique. This is illustrated in the image below. <br>
+    simulations of galaxy clusters, which has the working title PICO-Cluster. Cosmological simulations start shortly after the Big Bang and capture how matter collapses to form the first galaxies, some of which later assemble in galaxy clusters.
+    This project is a collaboration between NBI, AIP and MPA. We've been awarded 28 mio. cpu-hours of computing time on SuperMuc-NG in Garching. Galaxy clusters form at the largest over-densities in the cosmic web which reveals itself in our 1 Gpc/h box simulation. We have used this box simulation to select 25 galaxy clusters for re-simulation at much higher resolution using a so-called zoom-in technique. This is illustrated in the image below. <br>
 
     <a class="image"><img src="images/parent-box.jpg" alt=""
     width="100%" height="auto" /></a>
 
 	<br>
 
-    I have created a few animations of our simulations, some of which are shown below. The first animation shows the formation of a galaxy cluster and how it undergoes a major merger with a smaller galaxy cluster when the universe is around 10 billion years old. The merger creates bow shocks which heat the gas in the intracluster medium. The second animation uses a higher resolution and takes a closer look at where the shock energy is dissipated (right-hand panel). The third animation
-    gives a 3D view, achieved by rotating the viewing position around the cluster center.
+</div>
+</section>
+
+<!-- Three -->
+<section id="four">
+<div class="container">
+<h3>Animation gallery</h3>
+
+Here I show some of the animations I have made with <a href="https://github.com/tberlok/paicos"> Paicos</a> (a GPU-enabled Python package for analysis and visualization of computer simulations. There are additional video links in the publication list that can be found further down on the page.
+<br>
+<br>
+
+I have created a few animations of the PICO-Cluster simulations, some of which are shown below. The first animation shows the formation of a galaxy cluster and how it undergoes a major merger with a smaller galaxy cluster when the universe is around 10 billion years old. The merger creates bow shocks which heat the gas in the intracluster medium.
     <video class="displayed" width="100%" height="auto" controls="controls">
       <source src="movies/simple_movie.mp4" type="video/ogg">
       <source src="movies/simple_movie.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-
+The second animation uses a higher resolution and takes a closer look at where the shock energy is dissipated (right-hand panel).
     <video class="displayed" width="100%" height="auto" controls="controls">
       <source src="movies/shock_movie.mp4" type="video/ogg">
       <source src="movies/shock_movie.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-
+The third animation gives a 3D view, achieved by rotating the viewing position around the cluster center.
+This animation was made from roughly 100 mio. gas cells from which I created
+    2880 images. The GPU capabilities of <a href="https://github.com/tberlok/paicos"> Paicos</a>
+    enabled me to create this video in a few hours.
+    <br>
    	<video class="displayed" width="100%" height="auto" controls="controls">
       <source src="movies/wide_cluster_gpu_rotate_fps30.mp4" type="video/ogg">
       <source src="movies/wide_cluster_gpu_rotate_fps30.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
+In a fourth animation, we will have a look at the galaxies in this galaxy cluster.
+    <video class="displayed" width="100%" height="auto" controls="controls">
+       <source src="movies/halo3_gri_1920_1080_movie_crf24.mp4" type="video/ogg">
+       <source src="movies/halo3_gri_1920_1080_movie_crf24.mp4" type="video/mp4">
+       Your browser does not support the video tag.
+    </video>
+    <br>
+I have also made full-screen animations of the time evolution of a massive galaxy cluster, as seen below.
+In this animation, we see how the gas is heated (upper right), and how turbulence (lower left) amplifies
+the magnetic field (lower right) in the galaxy cluster.
+    <video class="displayed" width="100%" height="auto" controls="controls">
+       <source src="movies/halo4_zoom12_tng_crf24.mp4" type="video/ogg">
+       <source src="movies/halo4_zoom12_tng_crf24.mp4" type="video/mp4">
+       Your browser does not support the video tag.
+    </video>
+    <br>
+    Finally, I have made animations of some my colleagues' simulations. Below are a couple of examples.
+    <br>
 
-    The last animation was made from roughly 100 mio. gas cells from which I created
-    2880 images. I used my own GPU-enabled python package, <a href="https://github.com/tberlok/paicos"> Paicos</a>, to make it.
-    <!-- While Paicos was originally intended to work with Arepo simulations only, I have recently extended this code to also work with simulation output from other astrophysical simulation codes. -->
+    Here is an animation of the galaxy merger simulations described in two papers by my former colleague
+    Joseph Whittingham (<a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.506..229W/abstract"> <i>Paper 1</i></a>,
+    <a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.526..224W/abstract"> <i>Paper 2</i></a>):
+
+     <video class="displayed" width="100%" height="auto" controls="controls">
+       <source src="movies/joes_galaxy_movie_20FPS.mp4" type="video/ogg">
+       <source src="movies/joes_galaxy_movie_20FPS.mp4" type="video/mp4">
+       Your browser does not support the video tag.
+     </video>
+
+    While Paicos was originally intended to work with Arepo simulations only, I have recently extended this code to also work with simulation output from other astrophysical simulation codes. Below I show an animation of a simulation of a protoplanetary disk. The simulation was performed by Christian Granzow Holm, Michael Küffmeier, Troels Haugbølle and Åke Nordlund and the animation was made by me using Paicos.
+
+    	<video class="displayed" width="100%" height="auto" controls="controls">
+       <source src="movies/christian_defence_1920_1080_action_movie.mp4" type="video/ogg">
+       <source src="movies/christian_defence_1920_1080_action_movie.mp4" type="video/mp4">
+       Your browser does not support the video tag.
+     </video>
 
     <br>
     <br>
 
-    	<i> This project has received funding from the European Union’s Horizon
+   <div class="features">
+    <article>
+			<a class="image"><img src="images/normal-reproduction-low-resolution.jpg" alt=""
+			width="40%" height="auto" /></a>
+			<div class="inner">
+				<h4>Marie Skłodowska-Curie Fellowship</h4>
+				<p><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/projects-details/43108390/101106080/HORIZON"> <br>
+				  <i> This project has received funding from the European Union’s Horizon
 Europe research and innovation programme under the Marie Skłodowska-Curie grant agreement No 101106080.
+</i></a>
+				</p>
+			</div>
+		</article>
+		</div>
 
-<br>
-</i>
-	<br>
+<!-- 	<br>
     <a class="image"><img src="images/normal-reproduction-low-resolution.jpg" alt=""
-    width="40%" height="auto" /></a>
+    width="40%" height="auto" /></a> -->
 
 <!-- 	I used to be a PhD student in the  <a href="http://www.nbia.dk/astrophysics/Home.html">Theoretical
 	Astrophysics Group</a> where I studied the physics of galaxy clusters under
